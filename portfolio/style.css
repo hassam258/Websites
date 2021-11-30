@@ -1,0 +1,440 @@
+body {
+	background: linear-gradient(-45deg,#516174,#2b3b4c,#071828,#16425f);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 400vh;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.navbar-light .navbar-toggler {
+    color:  #082032;
+    border:2px solid aliceblue;
+	background-color: aliceblue;
+	
+}
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(60, 99, 133);
+	text-align: center;
+}
+.navbar-nav .nav-link:hover{
+	color:aliceblue;
+}
+
+
+
+
+nav .logo{
+	margin-right: auto;
+	font-size: larger;
+	color:aliceblue;
+	font-weight: bold;
+	padding-left:1.2rem;
+}
+
+ul a{
+	text-decoration:none;
+	color: aliceblue;
+	font-weight: bold;
+	padding: 0.4rem;
+}
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.container{
+	margin-top:5rem;
+	color: aliceblue;
+
+}
+.span{
+	color:#a4aab6d8;
+}
+#profile-info{
+	margin-top:12rem;
+}
+#profile-img img{
+  height:55vh;
+   opacity: 70%;
+   overflow: hidden;
+}
+#button{
+	color:#082032;
+	background-color:#a4aab6d8;
+	width:8rem;
+	height:2.5rem;
+	border-color: #a4aab6d8;
+	border-radius:.5rem; 
+	font-weight:bold;
+}
+.aboutme{
+	margin-top:10rem;
+	margin-bottom:5rem;
+	background-color:aliceblue;
+	
+	border-radius: 1rem;
+	padding: 1rem;
+	color:#082032;
+	
+}
+.certifications{
+	margin-top:10rem;
+	margin-bottom:5rem;
+}
+.skills{
+	margin-top:10rem;
+	margin-bottom:5rem;	
+}
+.services{
+	margin-top:10rem;
+	margin-bottom:5rem;	
+}
+.contact{
+	margin-top:10rem;
+	margin-bottom:5rem;	
+}
+#about-img img{
+	height:280px;
+	opacity: 100%;
+	
+}
+.flexbox{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.aboutme .span{
+	color:black;
+}
+#cv-button{
+	background-color:#082032;
+	width:8rem;
+	height:2.5rem;
+	border-color: #082032;
+	border-radius:.5rem;
+	color:aliceblue;
+}
+section{
+	margin-top:3rem;
+
+}
+
+.certificate{
+	overflow:hidden;
+	border-radius:5rem;
+	
+}
+section p{
+	font-size: 20PX;
+	margin-top:.5rem;
+}
+.box{
+	background-color:#082032;
+	border-radius:1rem;
+	padding:1rem;
+	opacity:60%;
+}
+.box:hover{
+	opacity:100%;
+}
+.box .certificate{
+   width:200px;
+   height:150px;
+} 
+.skills{
+	background-color: aliceblue;
+	border-radius: 1rem;
+	color:#071828;
+	padding: 2.5rem;
+}
+.skills .span{
+	color:black;
+}
+
+.skills .info-text{
+	font-size:18px;
+}
+.skills .right-content .bars{
+	margin-top: 15px;
+}
+.skills .skills-content .right-content  span{
+	font-weight: 500;
+	font-size:18px;
+}
+
+.skills .right-content .info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.skills .skills-content .container-box{
+	padding:2rem;
+   
+   color:black;
+   border-radius:1rem;
+}
+.skills .right-content .line{
+	height: 5px;
+	width: 100%;
+	background: lightgrey;
+	position: relative;
+
+}
+.skills .skills-content .right-content .line::before{
+	content:"";
+	position: absolute;
+    height: 100%;
+    width: 80%;
+	left:0;
+	top: 0;
+	background:#082032 ;
+}
+.skills .skills-content .right-content .html::before{
+    width: 90%;
+	
+}
+.skills .skills-content .right-content .css::before{
+    width: 86%;
+	
+}
+.skills .skills-content .right-content .javascript::before{
+    width: 60%;
+	
+}
+.skills .skills-content .right-content .java::before{
+    width: 95%;
+	
+}
+.skills .skills-content .right-content .mysql::before{
+    width: 75%;
+	
+}
+.services p{
+   font-size:15px;
+}
+.services .box{
+	position: relative;
+	height: 100%;
+}
+.container-box .details{
+	display:flex;
+	align-items:flex-start;
+	justify-content:flex-start;
+}
+.container-box .details .details-icon{
+	margin-right:4rem;
+}
+
+.contact p{
+	font-size:18px;
+}
+.contact span{
+	color:black;
+}
+.contact{
+	color:#082032;
+	background-color: aliceblue;
+	padding:2rem;
+	border-radius: 1rem;
+}
+.container-box .details .details-icon .icons-style{
+	color:#082032;
+}
+form input{
+	
+	border-radius:.5rem;
+	margin-top:.8rem;
+	border:2px solid lightgray;
+	color:rgb(102, 101, 101);
+	padding:.8rem;
+}
+form #name{
+	width:36%;
+	height:35px;
+	margin-right:1rem;	
+}
+form #email{
+	width:40%;
+	height:35px;	
+}
+form #subject{
+	width:80%;
+	height:35px;
+}
+form #message{
+	width:80%;
+	height:100px;
+}
+form #submit-button{
+     background-color:#082032;
+	 color:aliceblue;
+	 border:2px solid #082032;
+}
+footer{
+	background-color:#a4aab6d8;
+	height:100px;
+	padding-top:2.5rem;
+	font-weight:bolder;
+
+}
+footer span{
+	color:white;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+
+	color: aliceblue;
+  
+  }
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+
+	color: #a4aab6d8;
+  
+  }
+@media(min-width:992px)and (max-width:1199px){
+	#profile-img img{
+		height:450px;
+		
+	  }
+
+ .box{
+	 position:relative;
+	 height: 100%;
+ }
+ .box .certificate{
+  height:100px;
+  width:150px;
+} 
+}
+@media(min-width:768px)and (max-width:991px){
+	#profile-img img{
+		height:48vh;
+		
+	  }
+	  #profile-info{
+		margin-top:8rem;
+		
+	}
+	.box{
+		margin-top:2rem;
+
+	}
+	.box .certificate{
+		margin-left: 1rem;
+	}
+	.services .box{
+		height: auto;
+		
+	}
+}
+@media(max-width:767px){
+	
+	header{
+		padding:0.5rem;
+	}
+	
+    .navbar .navbar-brand{
+		font-size:16px;
+	}
+	.navbar-toggler {
+		height:2.5rem;
+		width:3.5rem;
+	}
+	#profile-info{
+		margin-top:3rem;
+		margin-left:2rem;
+	}
+	#profile-info h1{
+		font-size:1.5rem;
+	}
+	#profile-info h3{
+		font-size:1.3rem;
+	}
+	#profile-info #button{
+		height: auto;
+		width:6rem;
+	}
+	#profile-img img{
+		height:44vh;
+
+	}
+	 #about-img img{
+		height:25vh;
+		
+	}
+	.flexbox{
+		display:block;
+		align-items:center;
+		justify-content:space-between;
+	}
+	#about-details h4{
+		font-size:15px;
+	}
+	.aboutme h2{
+		font-size:18px;
+	}
+	.aboutme p{
+		font-size:13px;
+	}
+	.aboutme #cv-button{
+		height:2rem;
+		width:6.5rem;
+		font-size:13px;
+	}
+	.certifications h2 {
+		font-size:18px;
+		
+	}
+	.certifications p{
+		font-size:15px;
+	} 
+	.box .certificate{
+		margin-left: 1.5rem;
+	}
+	.box{
+		margin-top:2rem;
+
+	}
+	.skills h2{
+		font-size:18px;
+	}
+   .skills	h5{
+		font-size:15px;
+	}
+	.skills .info-text{
+		font-size:13px;
+	}
+	.services h2{
+		font-size:18px;
+	}
+	.services p{
+		font-size:13px;
+	}
+	.services h6{
+           font-size:15px;
+	}
+	.services .box{
+		height: auto;
+	}
+	.contact h2{
+		font-size:18px;
+	}
+	.contact p{
+		font-size:70%;
+	}
+	.contact h6{
+		font-size:15px;
+	}
+
+}
